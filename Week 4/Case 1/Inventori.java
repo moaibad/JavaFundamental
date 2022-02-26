@@ -27,4 +27,3 @@ public class Inventori {
         beli.pengadaan();
     }
 }
-
