@@ -6,7 +6,7 @@ public class KelasSatu {
     }
     
     static{
-        System.out.println(2); /*hanya ditampilkan satu kali di awal ketika constructor dipanggil*/
+        System.out.println(2); /*hanya ditampilkan satu kali dan pertama kali ketika constructor dipanggil*/
     }
     
     public KelasSatu(int i){
