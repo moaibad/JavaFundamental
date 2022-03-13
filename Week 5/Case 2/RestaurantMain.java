@@ -3,7 +3,7 @@ package Restaurant;
 import java.util.Scanner;
 
 /**
-* @author Mohammad Fathul'Ibad
+* @author Moaibad
 * @version 1.0
 * @since 2022-03-13
 */

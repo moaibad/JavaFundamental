@@ -1,5 +1,11 @@
 package Restaurant;
 
+/**
+* @author Moaibad
+* @version 1.0
+* @since 2022-03-13
+*/
+
 public class Restaurant{
     public static byte id = 0;
     private Food[] Menu;

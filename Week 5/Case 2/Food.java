@@ -1,5 +1,11 @@
 package Restaurant;
 
+/**
+* @author Moaibad
+* @version 1.0
+* @since 2022-03-13
+*/
+
 public class Food {
     //Variabel di set menggunakan modifier private untuk menerapkan konsep enkapsulasi
     private String nama_makanan;
