@@ -39,5 +39,4 @@ class Employee extends Sortable{
         if (salary>eb.salary) return +1;
         return 0;
     }
-
 }
