@@ -2,7 +2,7 @@
  *
  * @author Moaibad
  */
-class Employee implements Sortable{
+class Employee extends Sortable{
     /*Instansiasi*/
     private String name;
     private double salary;
