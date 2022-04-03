@@ -13,7 +13,6 @@ public class EmployeeTest{
         for (i = 0; i < 3; i++){
             staff[i].raiseSalary(5);
         }
-        Sortable.shell_sort(staff);
         for (i = 0; i < 3; i++){
             staff[i].print();
         }
