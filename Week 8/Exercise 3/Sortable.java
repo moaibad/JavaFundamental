@@ -7,7 +7,7 @@ abstract class Sortable {
     public static void shell_sort(Sortable[] a){     
         //Shell sort body
         
-        /*For loop sampai interval tidak dibawah 0*/
+        /*For loop sampai interval 1*/
         for(int interval = a.length/2; interval>0 ; interval/=2){
             
             /*For loop membandingkan dua buah elemen berdasarkan interval*/
