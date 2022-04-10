@@ -14,15 +14,15 @@ public class Staff {
         staffList[3] = new Hourly ("Diane", "678 Fifth Ave.", "555-0690", "958-47-3625", 10.55);
         staffList[4] = new Volunteer ("Norm", "987 Suds Blvd.", "555-8374");
         staffList[5] = new Volunteer ("Cliff", "321 Duds Lane.", "555-7282");
-        staffList[6] = new Hourly ("Manto", "Kecamatan Baghdad", "555-0412","000-11-2222",  6.25);
-        staffList[7] = new Hourly ("Zone", "Kabupaten Baghdad", "555-0416","111-22-3333",  9.75);
+        staffList[6] = new Commission ("Manto", "Kecamatan Los Santos", "555-0412","000-11-2222", 6.25,20);
+        staffList[7] = new Commission ("Zone", "Kabupaten Paleto Bay", "555-0416","111-22-3333", 9.75,15);
         
         ((Executive)staffList[0]).awardBonus(500.00);
         ((Hourly)staffList[3]).addHours(40);
-        ((Hourly)staffList[6]).addHours(35);
-        ((Hourly)staffList[6]).addCommision(400,20);
-        ((Hourly)staffList[7]).addHours(40);
-        ((Hourly)staffList[7]).addCommision(950,15);
+        ((Commission)staffList[6]).addHours(35);
+        ((Commission)staffList[6]).addSales(400);
+        ((Commission)staffList[7]).addHours(40);
+        ((Commission)staffList[7]).addSales(950);
     }
     
     public void payday(){
