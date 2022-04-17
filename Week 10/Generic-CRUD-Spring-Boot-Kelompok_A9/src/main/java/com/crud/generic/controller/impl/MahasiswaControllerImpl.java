@@ -8,7 +8,7 @@ import com.crud.generic.controller.generic.impl.ControllerGenericImpl;
 import com.crud.generic.entity.Mahasiswa;
 
 @RestController
-@RequestMapping(path = "/person")
+@RequestMapping(path = "/mahasiswa")
 public class MahasiswaControllerImpl extends ControllerGenericImpl<Mahasiswa> implements MahasiswaController{
 	
 }
